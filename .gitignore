@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model cache and downloads
+models_cache/
+*.caffemodel
+*.task
+*.prototxt
+*.pth
+*.h5
+*.onnx
+*.pb
+
+# HuggingFace cache
+huggingface/
+
+# User uploads
+uploads/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
